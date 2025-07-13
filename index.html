@@ -1,78 +1,79 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/imagens/atom_icon_191749.ico" type="image/x-icon">
-    <title>Criar Acesso</title>
- 
-    <link rel="stylesheet" href="style.css">
-</head>
-</head>
-<body>
+<!DOCTYPE html> <!-- Declara que o documento é HTML5 -->
+<html lang="pt-BR"> <!-- Início do HTML e definição do idioma da página como português do Brasil -->
+<head> <!-- Início do cabeçalho da página (informações invisíveis para o usuário) -->
 
-    <div class="container">
-        <section class="header">
+    <meta charset="UTF-8">  <!-- Define o conjunto de caracteres como UTF-8 (suporta acentos e caracteres especiais) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o layout responsivo para dispositivos móveis -->
+    <link rel="shortcut icon" href="/imagens/atom_icon_191749.ico" type="image/x-icon"> <!-- Ícone da aba do navegador (favicon) -->
+    <title>Criar Acesso</title> <!-- Título da página (aparece na aba do navegador) -->
+    <link rel="stylesheet" href="style.css">  <!-- Importa o arquivo de estilos CSS externo -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head> <!-- Fim do cabeçalho -->
+<body> <!-- Início do corpo da página (conteúdo visível para o usuário) -->
+
+    <div class="container">  <!-- Div contêiner principal, usada para centralizar/organizar o conteúdo -->
+        <section class="header"> <!-- Seção de cabeçalho com título -->
             <h2>Nova conta</h2>
         </section>
 
 
-    <form id="form" class="form">
-        <div class="form-content">
-            <label for="username">Nome do usuário</label>
+      <form id="form" class="form"> <!-- Início do formulário. Possui um ID (usado no JS) e uma classe (usada no CSS) -->
+       
+        <div class="form-content"> <!-- Bloco de conteúdo do formulário (campo Nome do usuário) -->
+            <label for="username">Nome do usuário</label>  <!-- Rótulo associado ao input com id="username" -->
             <input 
-            type="text" 
+            type="text"  
             id="username" 
-            placeholder="Digite o nome do usuario...">
-            <a href="">aqui vai a mensagem de erro</a>
+            placeholder="Digite o nome do usuario..."> <!-- Texto de dica dentro do campo -->
+            <a>aqui vai a mensagem de erro</a> <!-- Espaço reservado para mensagens de erro -->
         </div>
 
         <br><br>     
         
-    <form id="form" class="form">
         <div class="form-content">
             <label for="email">Email</label>
             <input 
             type="email" 
             id="email" 
             placeholder="Digite o seu email...">
-            <a href="">aqui vai a mensagem de erro </a>
+            <a>aqui vai a mensagem de erro </a>
         </div>    
         
         <br><br>      
 
-          <form id="form" class="form">
+          
         <div class="form-content">
             <label for="password">Senha</label>
             <input 
             type="password" 
             id="password" 
             placeholder="Digite sua senha...">
-            <a href="">aqui vai a mensagem de erro </a>
+            <a>aqui vai a mensagem de erro </a>
         </div>
 
         <br><br>
 
-          <form id="form" class="form">
-        <div class="form-content">
+          
+        <div class="form-content" >
             <label for="password-confirmation">Confirme sua senha</label>
             <input 
             type="password" 
             id="password-confirmation" 
             placeholder="Digite sua senha novamente">
-            <a href="">aqui vai a mensagem de erro </a>
+            <a>aqui vai a mensagem de erro </a>
         </div>
 
         <br><br><br>
 
-        <button type="submit">Cadastre-se</button>
+        <button type="submit">Cadastre-se</button> <!-- Botão que envia o formulário -->
 
-    </form>
+      </form> <!-- Fim do formulário -->
 
-    </div>
+    </div> <!-- Fim do contêiner principal -->
 
     
    
-<script src="/script.js"> </script>
+<script src="/script.js"> </script> <!-- Importa o arquivo JavaScript externo -->
 </body>
 </html>
