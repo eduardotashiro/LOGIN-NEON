@@ -76,12 +76,13 @@ visibility: hidden; /* Esconde o link (mensagem de erro), só aparece com JavaSc
 .form button{
     background:linear-gradient(119deg, #3acbf0 20%, #fb2bf5 100%); /* Gradiente no botão */
     color: white;    /* Cor do texto do botão */
-    width: 100%;  /* Ocupa toda a largura do container */
+    width: 90%;  /* Ocupa toda a largura do container */
     border-radius: 10px;  /* Bordas arredondadas */
     padding: 10px;   /* Espaço interno do botão */
     border: 0;  /* Remove a borda padrão */
     font-size: 18px; /* Tamanho do texto */
     cursor: pointer; /* Mostra o ponteiro de clique ao passar o mouse */
+    margin-left: 25px;
     
 
 }
@@ -96,4 +97,8 @@ visibility: hidden; /* Esconde o link (mensagem de erro), só aparece com JavaSc
     visibility: visible ;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
