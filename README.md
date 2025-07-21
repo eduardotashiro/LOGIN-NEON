@@ -32,9 +32,7 @@ Mas, por agora é isso..
 
 - Alerta de sucesso se todos os campos estiverem corretos
 
-## Como usar
+## Você pode ver o projeto online aqui:  
 
-1. Clone o repositório:
+=> [Clique aqui !!]()
 
-   ```bash
-   git clone https://github.com/eduardotashiro/LOGIN-NEON
